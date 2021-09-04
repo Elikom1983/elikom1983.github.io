@@ -89,7 +89,7 @@
     //动画
     function animation() {
 
-      if (direction == "next") { //点击next
+      if (direction == "prev") { //点击next
         for (i = 0; i <column; i++) {
           var prevStyleObj = init_arr[i - 1];
           if (i == 0) {
