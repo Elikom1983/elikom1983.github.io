@@ -185,7 +185,11 @@
 })($,window,document);
 function brigrtnes(){
 let lis=document.querySelectorAll("[class^=pos]");
-   for(let l of lis){ l.style.filter="brightness(41%)"
+   for(let l of lis){ 
+     //l.style.filter="brightness(41%)";
+     l.style.opacity="0.41"
+     
   if(parseInt(l.style.zIndex)===3){
-    l.style.filter="brightness(100%)"
+    //l.style.filter="brightness(100%)";
+    l.style.opacity="1";
   };}}
